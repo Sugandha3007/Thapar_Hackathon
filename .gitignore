@@ -1,6 +1,7 @@
-# Python
+
+# Python venv
 ai_model/venv/
-__pycache__/
+venv/
 
 # Node
 node_modules/
