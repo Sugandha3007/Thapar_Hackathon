@@ -20,6 +20,26 @@ __pycache__/
 *.log
 .env
 
+@"
+# Python venvs (ignore only virtual env folders)
+ai_model/venv/
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# env & logs
+.env
+*.log
+
+# Node build deps (if present)
+node_modules/
+dist/
+build/
+"@ | Out-File -Encoding UTF8 .gitignore
+
 # Logs
 logs
 *.log
